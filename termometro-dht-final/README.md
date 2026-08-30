@@ -56,3 +56,4 @@ python termometro-dht.py
 ```
 
 > **Note:** The serial port is currently configured as `COM5`. Change it if your Arduino uses another port.
+#oihanmaded
