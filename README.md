@@ -8,9 +8,9 @@ The repository focuses on turning real sensor and controller data into interacti
 
 | Project | Description | Main technologies |
 |---|---|---|
-| 🎮 [3D Breakout](./breakout3D-final) | A 3D game controlled with an Arduino joystick, featuring lives, levels, power-ups and a high-score system. | Python, VPython, Arduino, PySerial |
-| 🌡️ [ThermoHygrometer](./termometro-dht-final) | A visual temperature and humidity monitor using a DHT sensor and an animated VPython interface. | Python, VPython, NumPy, Arduino, DHT |
-| ⚡ [VoltOmatic](./voltimetro-final) | A virtual voltmeter that reads an analog value from Arduino and displays it with an animated gauge. | Python, VPython, NumPy, Arduino, PySerial |
+|  [3D Breakout](./breakout3D-final) | A 3D game controlled with an Arduino joystick, featuring lives, levels, power-ups and a high-score system. | Python, VPython, Arduino, PySerial |
+|  [ThermoHygrometer](./termometro-dht-final) | A visual temperature and humidity monitor using a DHT sensor and an animated VPython interface. | Python, VPython, NumPy, Arduino, DHT |
+|  [VoltOmatic](./voltimetro-final) | A virtual voltmeter that reads an analog value from Arduino and displays it with an animated gauge. | Python, VPython, NumPy, Arduino, PySerial |
 
 ## What I am learning
 
@@ -65,4 +65,4 @@ These projects are part of my learning process and are continuously improved as 
 
 ---
 
-**Built with Python + Arduino ⚡**
+**Built with Python + Arduino **
