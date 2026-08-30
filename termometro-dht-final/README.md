@@ -4,13 +4,13 @@ A real-time **temperature and humidity monitor** built with Arduino, a DHT senso
 
 ## Features
 
-- 🌡️ Real-time temperature display
-- 💧 Real-time humidity display
-- 📊 Animated temperature scale
-- 🎛️ Animated humidity gauge
-- 🔄 Smooth sensor-value filtering
-- 🎨 Temperature-dependent visual feedback
-- 💻 Interactive VPython interface
+-  Real-time temperature display
+-  Real-time humidity display
+-  Animated temperature scale
+-  Animated humidity gauge
+-  Smooth sensor-value filtering
+-  Temperature-dependent visual feedback
+-  Interactive VPython interface
 
 ## Hardware
 
@@ -51,26 +51,8 @@ The interface also classifies the environment as **cold, comfortable or hot**, a
 ```bash
 pip install pyserial vpython numpy
 ```
-
-5. Run:
-
 ```bash
 python termometro-dht.py
 ```
 
 > **Note:** The serial port is currently configured as `COM5`. Change it if your Arduino uses another port.
-
-## Project structure
-
-```text
-termometro-dht-final/
-├── termometro-dht.py
-├── Temperature-humidity-sensor/
-│   └── Temperature-humidity-sensor.ino
-├── esquema.png
-└── README.md
-```
-
----
-
-Built as a hands-on Arduino + Python sensor project. 🌡️
