@@ -1,16 +1,16 @@
-# ⚡ VoltOmatic
+#  VoltOmatic
 
 A virtual voltmeter that combines an **Arduino analog input** with a Python and VPython interface. The Arduino sends the analog reading through serial communication, while Python turns it into a smooth animated gauge and digital voltage display.
 
 ## Features
 
-- ⚡ Real-time voltage measurement
-- 🎛️ Analog input reading from Arduino
-- 📟 Digital voltage display
-- 📊 Animated analog-style gauge
-- 🔄 Smooth value filtering
-- 🟢🟡🔴 Visual voltage status
-- 🎨 3D interface built with VPython
+-  Real-time voltage measurement
+-  Analog input reading from Arduino
+-  Digital voltage display
+-  Animated analog-style gauge
+-  Smooth value filtering
+-  Visual voltage status
+-  3D interface built with VPython
 
 ## Hardware
 
@@ -18,14 +18,6 @@ A virtual voltmeter that combines an **Arduino analog input** with a Python and 
 - Potentiometer
 
 The circuit diagram is included as `esquema.png`.
-
-### Potentiometer connection
-
-| Potentiometer | Arduino |
-|---|---|
-| VCC | 5V |
-| GND | GND |
-| Signal | Analog input |
 
 ## Software
 
@@ -58,25 +50,10 @@ The Python program then updates the digital display and smoothly rotates the vir
 pip install pyserial vpython numpy
 ```
 
-5. Run:
-
 ```bash
 python voltimetro.py
 ```
 
 > **Note:** The serial port is currently configured as `COM5`. Change it if your Arduino uses another port.
 
-## Project structure
-
-```text
-voltimetro-final/
-├── voltimetro.py
-├── voltimetro/
-│   └── Potentiometer.ino
-├── esquema.png
-└── README.md
-```
-
----
-
-Built as a hands-on electronics and Python visualization project. ⚡
+#oihanmaded
